@@ -143,9 +143,9 @@
 
 
 
+/*
 
-
-
+/*
 /**{
     margin: 0;
     padding: 0;
@@ -203,7 +203,7 @@ ul li a:hover{
   }
   
   /* Navigation Bar */
-  .navbar {
+/*  .navbar {
     background-color: #ff595e;
     width: 100%;
     height: 25px;
@@ -212,23 +212,23 @@ ul li a:hover{
     overflow: hidden;
   }
   
-  .menu {
+ /* .menu {
     width: 100%; /* Allow menu to fill the navbar on smaller screens */
   }
   
-  ul {
+/*  ul {
     display: flex;
     justify-content: space-between; /* Distribute items evenly */
     align-items: center;
     padding: 10px 0; /* Add some padding for smaller screens */
   }
   
-  ul li {
+ /* ul li {
     list-style: none;
     font-size: 14px;
   }
   
-  ul li a {
+/*  ul li a {
     text-decoration: none;
     color: #fff;
     font-family: Arial;
@@ -239,7 +239,7 @@ ul li a:hover{
   ul li a:hover {
     color: #ff7200;
   }
-.content{
+/*.content{
     background-color: #f2fc8e;
 background-image: linear-gradient(122deg, #f2fc8e 0%, #E0C3FC 65%);
     width: 100%;
@@ -251,7 +251,7 @@ background-image: linear-gradient(122deg, #f2fc8e 0%, #E0C3FC 65%);
 
 }
 
-.content .par{
+/*.content .par{
     font-size: 10px;
     padding-left: 300px;
     padding-top:50px ;
@@ -262,7 +262,7 @@ background-image: linear-gradient(122deg, #f2fc8e 0%, #E0C3FC 65%);
     line-height: 15px;
 }
 
-.content h1{
+/*.content h1{
     font-family: Arial;
     font-size: 25px;
     color: #000;
@@ -294,7 +294,7 @@ background-image: linear-gradient(122deg, #f2fc8e 0%, #E0C3FC 65%);
     transition: .3s ease;
 }*/
 
-.cn:hover{
+/*.cn:hover{
     background-color: #fff;
 }
 
@@ -302,7 +302,7 @@ background-image: linear-gradient(122deg, #f2fc8e 0%, #E0C3FC 65%);
     color: #ff7200;
     font-size: 65px
 }*/
-.content .im{
+/*.content .im{
     float: right;
 }
 .sec{
@@ -325,7 +325,7 @@ background-image: linear-gradient(122deg, #f2fc8e 0%, #E0C3FC 65%);
     padding-left: 100px;
     margin-top: 50px;
 }*/
-.fig1{
+/* .fig1{
     padding-top: 50px;
     padding-left: 300px;
     display: flex;
@@ -381,5 +381,6 @@ background-image: linear-gradient(122deg, #f2fc8e 0%, #E0C3FC 65%);
 .f4{width: 10%;
     padding-bottom: -100px;
     padding-left: 10px;
-}
+}*/
  
+*/
