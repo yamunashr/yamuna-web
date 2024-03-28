@@ -11,7 +11,7 @@
     height: 25px;
     margin-bottom :0;
     padding: 0;
-    overflow: hidden;
+
     
 }
 
@@ -98,20 +98,13 @@ background-image: linear-gradient(122deg, #f2fc8e 0%, #E0C3FC 65%);
     
 }
 
-/*.content .cn a{
-    text-decoration: none;
-    color: #000;
-    transition: .3s ease;
-}*/
+
 
 .cn:hover{
     background-color: #fff;
 }
 
-/*.content span{
-    color: #ff7200;
-    font-size: 65px
-}*/
+
 .content .im{
     float: right;
 }
@@ -126,15 +119,7 @@ background-image: linear-gradient(122deg, #f2fc8e 0%, #E0C3FC 65%);
        
         
 }
-/*.sec .p1 .p4{
-    padding-left: 100px;
-    padding-top: 20px;
-}
 
-.sec .p5{
-    padding-left: 100px;
-    margin-top: 50px;
-}*/
 .fig1{
     padding-top: 50px;
     padding-left: 300px;
