@@ -1,3 +1,356 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Navigation Bar */
+  .navbar {
+    background-color: #ff595e;
+    width: 100%;
+    height: 25px;
+    margin-bottom: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .menu {
+    width: 100%; /* Allow menu to fill the navbar on smaller screens */
+  }
+  
+  ul {
+    display: flex;
+    justify-content: space-between; /* Distribute items evenly */
+    align-items: center;
+    padding: 10px 0; /* Add some padding for smaller screens */
+  }
+  
+  ul li {
+    list-style: none;
+    font-size: 14px;
+  }
+  
+  ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+  }
+  
+  ul li a:hover {
+    color: #ff7200;
+  }
+  
+  /* Content Section 
+  .content {
+    background-color: #f2fc8e;
+    background-image: linear-gradient(122deg, #f2fc8e 0%, #E0C3FC 65%);
+    width: 100%;
+    height: 280px;
+    margin-top: 0;
+    padding: 0;
+    color: #fff;
+    position: relative;
+  }
+  
+  .content .par {
+    font-size: 16px; /* Increase font size for better readability */
+    padding: 20px; /* Adjust padding for better spacing on smaller screens */
+    font-family: Arial;
+    color: #2b2929;
+    letter-spacing: 1px;
+    line-height: 1.5; /* Adjust line-height for better spacing */
+  }
+  
+  .content h1 {
+    font-family: Arial;
+    font-size: 20px; /* Adjust heading size for smaller screens */
+    color: #000;
+    padding: 20px; /* Adjust padding for better spacing on smaller screens */
+    letter-spacing: 2px;
+  }
+  
+  .content .cn {
+    width: 100px;
+    height: 20px;
+    background: #ff595e;
+    color: white;
+    border: none;
+    margin-bottom: 10px;
+    font-size: 12px; /* Reduce font size for smaller screens */
+    border-radius: 0px;
+    cursor: pointer;
+    transition: 0.4s ease;
+  }
+  
+  .content .cn:hover {
+    background-color: #fff;
+  }
+  
+  .content .im {
+    width: 50%; /* Allow image to shrink proportionally on smaller screens */
+    float: right;
+  }
+  
+  /* Second Section */
+  .sec {
+    background-color: #f2fc8e;
+    background-image: linear-gradient(122deg, #f2fc8e 0%, #E0C3FC 65%);
+    width: 100%;
+    height: 285px;
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap; /* Wrap elements on smaller screens */
+  }
+  
+  .fig1,
+  .fig2 {
+    flex: 1 1 0%; /* Allow sections to share space equally on larger screens */
+    padding: 20px; /* Adjust padding for better spacing on smaller screens */
+  }
+  
+  .fi1 {
+    margin-top: 4px;
+  }
+  
+  .p2 {
+    background-color: #ff595e;
+    width: 100%; /* Allow section to fill the width on smaller screens */
+    height: auto; /* Remove fixed height for responsive layout */
+    margin-top: 20px; /* Adjust margin for better spacing on smaller screens */
+    padding: 20px; /* Add padding for content */
+    color: #fff;
+  }
+  
+  .p2 .f1,
+  .p2
+  
+
+/**{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar{
+    background-color: #ff595e;
+    width: 100%;
+    height: 25px;
+    margin-bottom :0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+
+.menu{
+    width: 100%;
+    float: left;
+    height: 20px;
+}
+
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 80px;
+    margin-right: 50px;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #ff7200;
+}
+.content{
+    background-color: #f2fc8e;
+background-image: linear-gradient(122deg, #f2fc8e 0%, #E0C3FC 65%);
+    width: 100%;
+    height: 280px;
+    margin-top: 0;
+    padding: 0;
+    color: #fff;
+    position: relative;
+
+}
+
+.content .par{
+    font-size: 10px;
+    padding-left: 300px;
+    padding-top:50px ;
+    padding-bottom: 25px;
+    font-family: Arial;
+    color: #2b2929;
+    letter-spacing: 1px;
+    line-height: 15px;
+}
+
+.content h1{
+    font-family: Arial;
+    font-size: 25px;
+    color: #000;
+    padding-top: 50px;
+    padding-left: 300px;
+   
+    letter-spacing: 2px;
+}
+
+.content .cn{
+    width: 100px;
+    height: 20px;
+    background: #ff595e;
+    color: white;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 300px;
+    font-size: 10px;
+    border-radius: 0px;
+    cursor: pointer;
+    transition: .4s ease;
+    
+    
+}
+
+   
+
+.cn:hover{
+    background-color: #fff;
+}
+
+
+.content .im{
+    float: right;
+}
+.sec{
+   
+    background-color: #f2fc8e;
+    background-image: linear-gradient(122deg, #f2fc8e 0%, #E0C3FC 65%);
+        width: 100%;
+        height: 285px;
+        margin-top: 5px;
+        display: flex;
+       
+        
+}
+
+.fig1{
+    padding-top: 50px;
+    padding-left: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.fi1{
+    margin-top: 4px;
+}
+.fig2{
+    padding-top:50px;
+    padding-left: 10px;
+}
+ .p2{
+    float: right;
+    background-color:#ff595e ;
+    width: 250px;
+    height: 120px;
+    margin-top: 70px;
+    margin-left: 100px;
+
+   
+ }
+ .p2 .f1{
+    font-family: Arial;
+    font-size: 10px;
+    color: #000;
+    padding-top: 8px;
+    padding-left: 30px;
+   
+    letter-spacing: 2px;
+ }
+ .p2 .f2{
+    font-family: Arial;
+    font-size: 25px;
+    color: #000;
+    padding-top: 8px;
+    padding-left: 30px;
+   
+    letter-spacing: 2px;
+}
+.p3{
+    display: flex;
+}
+ .f3{
+    font-family: Arial;
+    font-size: 10px;
+    color: #000;
+    padding-top: 8px;
+    padding-left: 30px;
+   
+    letter-spacing: 2px;
+}
+.f4{width: 10%;
+    padding-bottom: -100px;
+    padding-left: 10px;
+}
+@media screen and (max-width: 480px) {
+    .navbar {
+        height: auto;
+    }
+    
+    .menu {
+        padding: 10px 0;
+    }
+
+    ul li {
+        margin: 10px 0;
+    }
+
+    .content .par,
+    .content h1,
+    .content .cn {
+        padding: 10px;
+    }
+
+    .p2 {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**{
     margin: 0;
     padding: 0;
@@ -47,7 +400,7 @@ ul li a{
 
 ul li a:hover{
     color: #ff7200;
-}*/
+}
 * {
     margin: 0;
     padding: 0;
